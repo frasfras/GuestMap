@@ -4,8 +4,7 @@ import Guests from './guests/Guests';
 // import axios from 'axios';
 import Maps from './components/Maps';
 
-import MoviesApplication from './guests/Guests';
-import Dashboard from './guests/Dashboard';
+//import MoviesApplication from './guests/Guests';
 import MarkerList from './components/MarkerList';
 import Markers from './components/Markers';
 
