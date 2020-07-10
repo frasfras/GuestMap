@@ -27,8 +27,8 @@ export default function MoviesApplication() {
         const name = record.getCellValueAsString('Name');
 
         // const apiKey = globalConfig.get(['settings', 'omdbApiKey']);
-        // Make API call to OMDB API here
-        const omdbApiUrl = 'https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?t=' +name + '&apikey=' + apiKey ;
+        // Make API call to  API here
+      //  const omdbApiUrl = 'https://cors-anywhere.herokuapp.com/https://www.omdbapi.com/?t=' +name + '&apikey=' + apiKey ;
 
         fetch(omdbApiUrl, {
             method: 'GET',
@@ -66,7 +66,7 @@ export default function MoviesApplication() {
 
     return (
         <div>
-            <h2>Movies Application</h2>
+            <h2>Guest Application</h2>
             <Settings />
             <div>
                 Selected Record Ids: {cursor.selectedRecordIds.join(' ')}
@@ -89,7 +89,7 @@ export default function MoviesApplication() {
 
                 <div>
                     <Button
-                        onClick={() => handleFetchRatingClick(record)}
+                        onClick={() => console.log()}
                         size="large"
                     >Fetch Ratings
                     </Button>
