@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, RecordCardList, RecordCard, CellRenderer, useRecords,TextButton,expandRecord } from '@airtable/blocks/ui'
 
-export default function MoviesList(props) {
+export default function GuestList(props) {
     const {
         table
     } = props;
